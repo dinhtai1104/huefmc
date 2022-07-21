@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 96ec9760f1c4eef4bb189433d811717c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - UTM Avo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b3ca63aaac0157b45867b82a1ae1d21d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
