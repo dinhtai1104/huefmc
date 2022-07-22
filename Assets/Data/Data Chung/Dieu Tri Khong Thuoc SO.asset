@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141c6f5f0653ad4448e8929fe56dcdd8, type: 3}
+  m_Name: Dieu Tri Khong Thuoc SO
+  m_EditorClassIdentifier: 
+  listDieuTriKhongThuocData:
+  - tenDieuTri: Test 1
+    isValid: 1
+    errorIfExist: 
+  - tenDieuTri: Test 2
+    isValid: 0
+    errorIfExist: Xet nghiem khong phu hop!
+  - tenDieuTri: Test 3
+    isValid: 1
+    errorIfExist: 
+  - tenDieuTri: Test 3
+    isValid: 1
+    errorIfExist: 
+  - tenDieuTri: Test 4
+    isValid: 1
+    errorIfExist: 

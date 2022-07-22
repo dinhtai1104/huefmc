@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1a43e1ba5d76f4d93f48c916b090fa, type: 3}
+  m_Name: Bang Theo Doi Duong Huyet SO
+  m_EditorClassIdentifier: 
+  listBangTheoDoiDuongHuyet:
+  - ngayText: "1 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 8.1
+    truocBuaTruaText: 7.3
+    truocBuaToiText: 9.3
+    ghiChuText: "T\u1ED1t. U\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y\r"
+  - ngayText: "2 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 10
+    truocBuaTruaText: 7.4
+    truocBuaToiText: 8.1
+    ghiChuText: "U\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y\r"
+  - ngayText: "3 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 7.3
+    truocBuaTruaText: 6.2
+    truocBuaToiText: "Qu\xEAn ki\u1EC3m tra"
+    ghiChuText: "C\u1EA3m gi\xE1c t\xEDch c\u1EF1c v\xE0o m\u1ED7i s\xE1ng. Ti\u1EBFp
+      t\u1EE5c u\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y"
+  - ngayText: "4 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 8.4
+    truocBuaTruaText: 7.2
+    truocBuaToiText: 10.2
+    ghiChuText: "H\u01A1i bu\u1ED3n n\xF4n, h\u1EBFt ti\xEAu ch\u1EA3y. Ti\u1EBFp
+      t\u1EE5c u\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y"
+  - ngayText: "5 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 7.8
+    truocBuaTruaText: 9.3
+    truocBuaToiText: 9.0
+    ghiChuText: "Ti\u1EBFp t\u1EE5c u\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y.
+      T\u0103ng c\u01B0\u1EDDng t\u1EADp th\u1EC3 d\u1EE5c v\xE0 n\u1ED7 l\u1EF1c
+      \u0103n u\u1ED1ng theo ch\u1EBF \u0111\u1ED9 cho b\u1EC7nh nh\xE2n \u0111\xE1i
+      th\xE1o \u0111\u01B0\u1EDDng"
+  - ngayText: "6 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 10.6
+    truocBuaTruaText: 8.3
+    truocBuaToiText: 8.7
+    ghiChuText: "Ch\u1EC9 s\u1ED1 \u0111\u01B0\u1EDDng huy\u1EBFt GI c\xF3 gi\u1EA3m
+      nh\u01B0ng v\u1EABn c\xF2n cao. Ti\u1EBFp t\u1EE5c u\u1ED1ng metformin 500
+      mg 2 l\u1EA7n/ng\xE0y."
+  - ngayText: "7 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 10.2
+    truocBuaTruaText: 6.7
+    truocBuaToiText: "Qu\xEAn ki\u1EC3m tra"
+    ghiChuText: "Ch\u1EC9 s\u1ED1 \u0111\u01B0\u1EDDng huy\u1EBFt GI c\xF2n cao.
+      Ti\u1EBFp t\u1EE5c u\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y."
+  - ngayText: "8 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 8.9
+    truocBuaTruaText: 6.7
+    truocBuaToiText: 10.5
+    ghiChuText: "Bu\u1ED3n n\xF4n v\xE0 ti\xEAu ch\u1EA3y. Ti\u1EBFp t\u1EE5c u\u1ED1ng
+      metformin 500 mg 2 l\u1EA7n/ng\xE0y. N\xF3i chuy\u1EC7n v\u1EDBi \u0111i\u1EC1u
+      d\u01B0\u1EE1ng v\xE0 s\u1EBD kh\xF4ng t\u0103ng li\u1EC1u metformin."
+  - ngayText: "9 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 9.3
+    truocBuaTruaText: "Qu\xEAn ki\u1EC3m tra"
+    truocBuaToiText: 168
+    ghiChuText: "U\u1ED1ng metformin 500 mg 2 l\u1EA7n/ng\xE0y"
+  - ngayText: "10 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 9.4
+    truocBuaTruaText: 9.3
+    truocBuaToiText: 8.8
+    ghiChuText: "T\u0103ng li\u1EC1u metformin 500 mg 2 l\u1EA7n/ng\xE0y"
+  - ngayText: "11 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: "Qu\xEAn ki\u1EC3m tra"
+    truocBuaTruaText: 9.9
+    truocBuaToiText: 9.4
+    ghiChuText: "U\u1ED1ng metformin 500 mg 1 l\u1EA7n/ng\xE0y"
+  - ngayText: "12 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 12.8
+    truocBuaTruaText: 9.4
+    truocBuaToiText: "Qu\xEAn ki\u1EC3m tra"
+    ghiChuText: "U\u1ED1ng metformin 500 mg 1 l\u1EA7n/ng\xE0y"
+  - ngayText: "13 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 15.3
+    truocBuaTruaText: 8.3
+    truocBuaToiText: 9.7
+    ghiChuText: "U\u1ED1ng metformin 500 mg 1 l\u1EA7n/ng\xE0y. T\u0103ng c\u01B0\u1EDDng
+      \u0111i b\u1ED9."
+  - ngayText: "14 ng\xE0y tr\u01B0\u1EDBc"
+    truocBuaSangText: 18.2
+    truocBuaTruaText: 11.1
+    truocBuaToiText: 14.4
+    ghiChuText: "\u0110\u01B0\u1EE3c ch\u1EA9n \u0111o\xE1n \u0111\xE1i th\xE1o \u0111\u01B0\u1EDDng
+      t\xEDp 2. B\u1EAFt \u0111\u1EA7u \u0111i\u1EC1u tr\u1ECB v\u1EDBi metformin
+      500 mg 1 l\u1EA7n/ng\xE0y v\xE0 gi\u1EA3m l\u01B0\u1EE3ng calorie/\u0111\u01B0\u1EDDng/\u0103n
+      ki\xEAng."

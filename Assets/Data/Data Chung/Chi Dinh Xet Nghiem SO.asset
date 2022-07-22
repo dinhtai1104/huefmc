@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d350e5dc45c74489f8f19adc1b46d3, type: 3}
+  m_Name: Chi Dinh Xet Nghiem SO
+  m_EditorClassIdentifier: 
+  listChiDinhXetNghiem:
+  - tenChiDinh: "C\xF4ng th\u1EE9c m\xE1u 1"
+    isValid: 1
+    errorIfExist: Xet nghiem khong can thiet
+  - tenChiDinh: K+ Cl-
+    isValid: 1
+    errorIfExist: 
+  - tenChiDinh: "10 th\xF4ng s\u1ED1 n\u01B0\u1EDBc ti\u1EC3u"
+    isValid: 1
+    errorIfExist: 
+  - tenChiDinh: "Urea, Creatinin m\xE1u"
+    isValid: 0
+    errorIfExist: 
+  - tenChiDinh: "Albumin m\xE1u"
+    isValid: 0
+    errorIfExist: 

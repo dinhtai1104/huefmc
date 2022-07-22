@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54df0c7f486968f45a0f4585b539186c, type: 3}
+  m_Name: Thong Tin Benh Nhan SO
+  m_EditorClassIdentifier: 
+  thongTinBenhNhan:
+    hoVaTenText: "Nguy\u1EC5n V\u0103n Nam"
+    tuoiText: "45 tu\u1ED5i"
+    chieuCaoText: 170 cm
+    canNangText: 80 kg
+    BMIText: 27.7 kg/m2
+    gioiTinhText: Nam
+    ngheNghiepText: "L\xE1i xe t\u1EA3i"
+    diUngText: "Kh\xF4ng"
+    thongTinKham: "T\xE1i kh\xE1m t\u1EA1i ph\xF2ng kh\xE1m B\xE1c s\u0129 gia d\xECnh
+      theo l\u1ECBch h\u1EB9n 2 tu\u1EA7n sau khi \u0111\u01B0\u1EE3c chu\u1EA9n
+      \u0111o\xE1n v\xE0 \u0111i\u1EC1u tr\u1ECB \u0110\xE1i th\xE1o \u0111\u01B0\u1EDDng
+      t\xEDp 2 v\u1EDBi Metformin"
+    tinhTrang: "C\xE1ch \u0111\xE2y 2 tu\u1EA7n, b\u1EC7nh nh\xE2n xu\u1EA5t hi\u1EC7n
+      tri\u1EC7u ch\u1EE9ng ti\u1EC3u nhi\u1EC1u, ti\u1EC3u m\u1ED7i ng\xE0y h\u01A1n
+      10 l\u1EA7n, kh\xF4ng bu\u1ED1t, kh\xF4ng \u0111\u1EE5c, kh\xF4ng c\xF3 m\xE1u,
+      \u1EA3nh h\u01B0\u1EDFng t\u1EDBi c\xF4ng vi\u1EC7c l\xE1i xe h\xE0ng ng\xE0y
+      c\u1EE7a b\u1EC7nh nh\xE2n, c\xE1c tri\u1EC7u ch\u1EE9ng kh\xF4ng c\u1EA3i
+      thi\u1EC7n n\xEAn b\u1EC7nh nh\xE2n \u0111i kh\xE1m t\u1EA1i ph\xF2ng kh\xE1m
+      B\xE1c s\u0129 gia \u0111\xECnh.\n\nB\u1EC7nh nh\xE2n \u0111\u01B0\u1EE3c ch\u1EA9n
+      \u0111o\xE1n \u0111\xE1i th\xE1o \u0111\u01B0\u1EDDng t\xEDp 2 v\u1EDBi \u0111\u01B0\u1EDDng
+      huy\u1EBFt l\xFAc \u0111\xF3i l\xE0 18 mmol/l v\xE0 A1C l\xE0 12%. B\u1EC7nh
+      nh\xE2n th\u1ECFa thu\u1EADn v\u1EDBi b\xE1c s\u0129 v\u1EC1 k\u1EBF ho\u1EA1ch
+      \u0111i\u1EC1u tr\u1ECB bao g\u1ED3m h\u01B0\u1EDBng d\u1EABn thay \u0111\u1ED5i
+      ch\u1EBF \u0111\u1ED9 \u0103n v\xE0 v\u1EADn \u0111\u1ED9ng, k\u1EBFt h\u1EE3p
+      v\u1EDBi 1 thu\u1ED1c u\u1ED1ng duy nh\u1EA5t l\xE0 Metformin 500mg trong tu\u1EA7n
+      \u0111\u1EA7u v\xE0 Metformin 500mg ng\xE0y 2 l\u1EA7n trong tu\u1EA7n ti\u1EBFp
+      theo v\xE0 Metformin 500mg ng\xE0y 3 l\u1EA7n trong 2 tu\u1EA7n ti\u1EBFp theo.
+      Trong qu\xE1 tr\xECnh \u0111i\u1EC1u tr\u1ECB, tri\u1EC7u ch\u1EE9ng ti\u1EC3u
+      nhi\u1EC1u c\xF3 thuy\xEAn gi\u1EA3m nh\u01B0ng v\u1EABn c\xF2n, xu\u1EA5t
+      hi\u1EC7n tri\u1EC7u ch\u1EE9ng bu\u1ED3n n\xF4n, \u0111i c\u1EA7u ph\xE2n
+      l\u1ECFng ng\xE0y 1 l\u1EA7n khi b\u1EC7nh nh\xE2n t\u0103ng li\u1EC1u l\xEAn
+      1000 mg, nh\u01B0ng sau \u0111\xF3 c\xE1c tri\u1EC7u ch\u1EE9ng gi\u1EA3m d\u1EA7n
+      v\xE0 g\u1EA7n nh\u01B0 bi\u1EBFn m\u1EA5t. B\u1EC7nh nh\xE2n t\xE1i kh\xE1m
+      sau 2 tu\u1EA7n theo h\u1EB9n."
