@@ -10,6 +10,9 @@ public class Grabblable : MonoBehaviour
     private Quaternion startQuaternion;
     private Transform _transform;
     public bool isGrabbled = false;
+
+    public Checkpoint checkPoint;
+
     private void Start()
     {
         myRb = GetComponent<Rigidbody>();
@@ -20,6 +23,8 @@ public class Grabblable : MonoBehaviour
     }
     public void OnGrabble(Transform hand)
     {
+        if (checkPoint)
+            checkPoint.ShowCheckPoint();
         isGrabbled = true;
         myRb.isKinematic = true;
         myRb.velocity = Vector3.zero;

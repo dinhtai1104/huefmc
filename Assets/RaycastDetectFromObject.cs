@@ -37,13 +37,17 @@ public class RaycastDetectFromObject : MonoBehaviour
                 if (!isFirstDetect)
                 {
                     isFirstDetect = true;
-                    LogController.Instance.Log(
-                        new LogData { 
-                            ngay = DateTime.Now.ToLongTimeString(),
-                            hanhDong = "Bắt đầu khám tim",
-                            thoiGianThucHien = "---"
-                        }
-                    );
+                    if (itemType == ItemType.OngNgheTim)
+                    {
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Bắt đầu khám tim",
+                                thoiGianThucHien = "---"
+                            }
+                        );
+                    }
                 }
                 // Tại đây chúng ta phát hiện được object đã chạm vào checkpoint, và cứ check thời gian
                 timeHold += Time.deltaTime;
@@ -57,16 +61,21 @@ public class RaycastDetectFromObject : MonoBehaviour
                     }
                     item.InvokeDisInteractEvent();
 
-                    LogController.Instance.Log(
-                        new LogData
-                        {
-                            ngay = DateTime.Now.ToLongTimeString(),
-                            hanhDong = "Kết thúc khám tim",
-                            thoiGianThucHien = "10s"
-                        }
-                    );
+                    if (itemType == ItemType.OngNgheTim)
+                    {
+                        Patient.Instance.SetTShirtActive(true);
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Kết thúc khám tim",
+                                thoiGianThucHien = "10s"
+                            }
+                        );
+
+                        UiManager.Instance.ShowMessage("Khám tim", "Nhịp tim 81, ổn định!");
+                    }
                     item.isFinished = true;
-                    UiManager.Instance.ShowMessage("Khám tim", "Nhịp tim 81, ổn định!");
                     timeHold = 0;
                     return;
                 }

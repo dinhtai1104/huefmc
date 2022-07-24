@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Patient : MonoBehaviour
+public class Patient : Singleton<Patient>
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject tShirt;
 
-    // Update is called once per frame
-    void Update()
+
+    public void SetTShirtActive(bool active)
     {
-        
+        tShirt.SetActive(active);
     }
 }
