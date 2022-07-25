@@ -29,11 +29,16 @@ public abstract class Fragment : MonoBehaviour
 
     public abstract void OnLoad();
 
+    public virtual void OnCallBack()
+    {
+
+    }
     public void OnClose()
     {
         container.DOScale(Vector3.zero, 0.25f).OnComplete(() =>
         {
             gameObject.SetActive(false);
+            OnCallBack();
         });
     }
 }

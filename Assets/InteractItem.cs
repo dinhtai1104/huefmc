@@ -27,10 +27,26 @@ public class InteractItem : MonoBehaviour
     public void InvokeInteractEvent()
     {
         interactEvent?.Invoke();
+        if (itemType == ItemType.OngNgheTim)
+        {
+            SoundManager.Instance.NgheTim(true);
+        }
+        else if (itemType == ItemType.OngNghePhoi)
+        {
+            SoundManager.Instance.NghePhoi(true);
+        }
     }
 
     public void InvokeDisInteractEvent()
     {
         disInteractEvent?.Invoke();
+        if (itemType == ItemType.OngNgheTim)
+        {
+            SoundManager.Instance.NgheTim(false);
+        } 
+        else if (itemType== ItemType.OngNghePhoi)
+        {
+            SoundManager.Instance.NghePhoi(false);
+        }
     }
 }

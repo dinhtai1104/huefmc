@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 2311075900445043868}
   - component: {fileID: 2311075900445043870}
   - component: {fileID: 2311075900445043865}
+  - component: {fileID: -4246957882486379283}
   m_Layer: 5
   m_Name: RowChiDinhXetNghiemPrefab
   m_TagString: Untagged
@@ -376,10 +377,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4e631c90fa34a418d6e8deb682bb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainImage: {fileID: 0}
   testName: {fileID: 2311075900374233984}
   tickCheckbox: {fileID: 2311075899471781356}
   untickColor: {r: 0.7372549, g: 0.7725491, b: 0.83921576, a: 1}
   tickColor: {r: 0.5019608, g: 0.67058825, b: 0.9960785, a: 1}
+  isCheck: 0
+  btn: {fileID: 0}
 --- !u!114 &2311075900445043865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,3 +428,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-4246957882486379283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2311075900445043858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d649e359c5bf043b9e30f0d567c018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

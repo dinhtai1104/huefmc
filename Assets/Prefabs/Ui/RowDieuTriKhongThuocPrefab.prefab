@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 3798805427489614169}
   - component: {fileID: 3798805427489614168}
   - component: {fileID: 3798805427489614167}
+  - component: {fileID: 2998837784896003291}
   m_Layer: 5
   m_Name: RowDieuTriKhongThuocPrefab
   m_TagString: Untagged
@@ -300,10 +301,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a8cf6cca1d2cb34e951da7d3a48039f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainImage: {fileID: 0}
   testName: {fileID: 3798805426901870823}
   tickCheckbox: {fileID: 3798805426638450407}
   untickColor: {r: 0.7372549, g: 0.7725491, b: 0.83921576, a: 1}
   tickColor: {r: 0.5019608, g: 0.67058825, b: 0.9960785, a: 1}
+  isCheck: 0
+  btn: {fileID: 0}
 --- !u!114 &3798805427489614167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +352,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2998837784896003291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798805427489614165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d649e359c5bf043b9e30f0d567c018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3798805427967184060
 GameObject:
   m_ObjectHideFlags: 0

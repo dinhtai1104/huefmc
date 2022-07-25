@@ -48,6 +48,27 @@ public class RaycastDetectFromObject : MonoBehaviour
                             }
                         );
                     }
+                    else if (itemType == ItemType.DenSoiTai)
+                    {
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Bắt đầu khám tai",
+                                thoiGianThucHien = "---"
+                            }
+                        );
+                    } else if (itemType == ItemType.OngNghePhoi)
+                    {
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Bắt đầu khám phổi",
+                                thoiGianThucHien = "---"
+                            }
+                        );
+                    }
                 }
                 // Tại đây chúng ta phát hiện được object đã chạm vào checkpoint, và cứ check thời gian
                 timeHold += Time.deltaTime;
@@ -72,8 +93,30 @@ public class RaycastDetectFromObject : MonoBehaviour
                                 thoiGianThucHien = "10s"
                             }
                         );
-
                         UiManager.Instance.ShowMessage("Khám tim", "Nhịp tim 81, ổn định!");
+                    } else if (itemType == ItemType.DenSoiTai)
+                    {
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Kết thúc khám tai",
+                                thoiGianThucHien = "10s"
+                            }
+                        );
+                        UiManager.Instance.ShowMessage("Khám tai", "Sạch");
+                    }
+                    else if (itemType == ItemType.OngNghePhoi)
+                    {
+                        LogController.Instance.Log(
+                            new LogData
+                            {
+                                ngay = DateTime.Now.ToLongTimeString(),
+                                hanhDong = "Kết thúc khám phổi",
+                                thoiGianThucHien = "10s"
+                            }
+                        );
+                        UiManager.Instance.ShowMessage("Khám phổi", "Âm phế bào rõ đều hai bên, không nghe rale");
                     }
                     item.isFinished = true;
                     timeHold = 0;

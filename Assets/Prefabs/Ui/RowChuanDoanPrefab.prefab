@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 8692216889967393456}
   - component: {fileID: 8692216889967393457}
   - component: {fileID: 8692216889967393458}
+  - component: {fileID: -5347735982564841229}
   m_Layer: 5
   m_Name: RowChuanDoanPrefab
   m_TagString: Untagged
@@ -376,10 +377,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade9ce697277ccf4f9cc85af02996ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainImage: {fileID: 0}
   testName: {fileID: 8692216889024117194}
   tickCheckbox: {fileID: 8692216889847561604}
   untickColor: {r: 0.7372549, g: 0.77254903, b: 0.8392157, a: 1}
   tickColor: {r: 0.5019608, g: 0.67058825, b: 0.99607843, a: 1}
+  isCheck: 0
+  btn: {fileID: 0}
 --- !u!114 &8692216889967393458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,3 +428,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-5347735982564841229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692216889967393460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d649e359c5bf043b9e30f0d567c018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
